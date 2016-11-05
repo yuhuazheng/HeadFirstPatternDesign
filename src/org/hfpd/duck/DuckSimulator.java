@@ -6,7 +6,7 @@ public class DuckSimulator {
 		mallard.performFly();
 		
 		mallard.setFlyBehavior(new FlyNoWay());
-		System.out.println("something woring with my wings");
+		System.out.println("something wrong with my wings");
 		mallard.performFly();
 	}
 }
