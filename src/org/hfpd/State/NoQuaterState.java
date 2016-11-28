@@ -4,7 +4,7 @@ package org.hfpd.State;
  * Created by yuhzheng on 11/26/16.
  */
 public class NoQuaterState implements State {
-    GumballMachine gumballMachine;
+    transient GumballMachine gumballMachine;
 
     public NoQuaterState(GumballMachine m){
         gumballMachine = m;
